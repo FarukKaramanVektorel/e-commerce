@@ -61,7 +61,7 @@ utils paketi altında bulunan HibernateConfig.java dosyasına PostgreSQL veritab
 utils paketi altında bulunan HibernateConfig.java dosyasında gerekli düzeltmeleri yapınız
 
 ```java
-            Properties prop=new Properties();
+                        Properties prop=new Properties();
     		prop.put("hibernate.connection.driver_class", "org.postgresql.Driver");
     		prop.put("hibernate.connection.url", "jdbc:postgresql://localhost:5432/commerce");
     		prop.put("hibernate.connection.username", "postgres");
